@@ -1,0 +1,112 @@
+﻿body { 
+background-image: url("triangles.jpg");
+
+	background-repeat: repeat;}
+	
+	
+
+div.box {
+	background-color: black;
+    width:50%; /* can be any width */
+    height:100px; /*can be any height */
+  position: absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%, -50%);
+  /* centeres automatically */
+  height: 15em;
+	
+}
+
+div.menu {
+	
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+
+	
+	
+}
+
+div.copyright { 
+	color: white;
+	text-align: center;
+	padding-top: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ /* NAV BAR CSS */  
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+ 
+  padding: 1.5em;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  
+  
+}
+#nav-1 {
+  background: #5495ff;
+  
+}
+#nav-2 {
+  background: #EEA200;
+}
+#nav-3 {
+  background: white;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: #5495ff;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #5495ff;
+  border-bottom: 4px solid #5495ff;
+  padding: 20px 0;
+  margin: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+.link-2 {
+  transition: 0.6s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-right: 2px dotted transparent;
+  padding: 30px 8px 0 10px;
+  margin: 0 10px;
+}
+.link-2:hover {
+  border-right: 2px dotted #ffffff;
+  padding-bottom: 24px;
+}
+.link-3 {
+  transition: 0.4s;
+  color: #19AEBA;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.link-3:hover {
+  background-color: black;
+  color: white;
+  padding: 24px 10px;
+  font-family: 'Montserrat', sans-serif;
+
+}
